@@ -5,8 +5,9 @@ Steps To Access:
 
 1. Clone or Download this project.
 2. Run npm i
-3. Run npm link (Optonal: makes sure our app doesn't have to be path specific.)
-4. Commands: 
+3. Run npm link
+4. Sign in to https://rapidapi.com/api-sports/api/covid-193 to get your API Key and update it in .env file.
+5. Commands: 
 
 
 
