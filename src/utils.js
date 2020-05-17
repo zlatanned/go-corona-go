@@ -7,7 +7,6 @@ function stats() {
         method: 'GET',
         URL: process.env.BASE_URL + 'statistics',
         headers: {
-            'x-rapidapi-host': process.env.HOST,
             'x-rapidapi-key': process.env.API_KEY
         },
         query: { 
@@ -24,11 +23,13 @@ function stats() {
 }
 
 async function hist() {
+    if (process.argv[3]){
+        return {error: 'Bad Request. Cannot pass second argument'};
+    }
     return execute({
         method: 'GET',
         URL: process.env.BASE_URL + 'countries',
         headers: {
-            'x-rapidapi-host': process.env.HOST,
             'x-rapidapi-key': process.env.API_KEY
         },
     })
