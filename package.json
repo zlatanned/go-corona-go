@@ -1,0 +1,34 @@
+{
+  "name": "go-corona-go",
+  "version": "1.0.0",
+  "description": "a corona stats tracker",
+  "main": "index.js",
+  "bin": {
+    "covid-data": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "covid19",
+    "corona",
+    "coronavirus",
+    "corona-virus",
+    "covid-19",
+    "covid 19"
+  ],
+  "author": "zlatanned",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "cli-table3": "^0.6.0",
+    "conf": "^6.2.4",
+    "dotenv": "^8.2.0",
+    "minimist": "^1.2.5",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
