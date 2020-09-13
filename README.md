@@ -3,7 +3,7 @@ A cli based application to track detailed statistics in tabular fashion about li
 
 Steps To Access:
 
-0. Clone or Download this project.
+0. Fork or clone this repository.
 1. Run npm i
 2. Run npm link
 3. Sign in to https://rapidapi.com/api-sports/api/covid-193 to get your API Key.
