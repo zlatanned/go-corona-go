@@ -33,7 +33,7 @@ module.exports = {
             break;
 
           case 'history':
-            getCountriesAffected.handler(args);
+            getCountriesAffected.handler();
             break;
       
           case 'forecast':
