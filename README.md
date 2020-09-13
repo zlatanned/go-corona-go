@@ -13,6 +13,7 @@ Steps To Access:
             BASE_URL='https://covid-193.p.rapidapi.com/'
             
 5. Commands: 
+
       5.0.  covid-data forecast ====> Outputs a Beautiful Message for all of us.
       
       5.1. covid-data (or 'covid-data help') ====> Opens up a Help chart.
