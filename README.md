@@ -26,7 +26,7 @@ Steps To Access:
               
               example: covid-data now ====> "Default Country Name is set to INDIA".
               
-![covid stats: for Belgium](https://github.com/zlatanned/go-corona-go/blob/master/screenshots/screenshot-covid-data-now-belgium.png)
+![covid stats: India](https://github.com/zlatanned/go-corona-go/blob/master/screenshots/screenshot-covid-data-now.png)
                        
                        covid-data now Belgium ===> Gets detailed stats for Belgium.
                        
