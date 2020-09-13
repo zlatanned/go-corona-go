@@ -31,7 +31,4 @@ Steps To Access:
                        covid-data now Belgium ===> Gets detailed stats for Belgium.
                        
 ![covid stats: for Belgium](https://github.com/zlatanned/go-corona-go/blob/master/screenshots/screenshot-covid-data-now-belgium.png)
-      
-      
-      
-      5.5  covid-data forecast ====> Outputs a Beautiful Message for all of us.
+      5.5.  covid-data forecast ====> Outputs a Beautiful Message for all of us.
