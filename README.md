@@ -8,8 +8,10 @@ Steps To Access:
 2. Run npm link
 3. Sign in to https://rapidapi.com/api-sports/api/covid-193 to get your API Key.
 4. Create a .env file in your project folder and set environment for two variables as follows:
+            
             API_KEY=xxxxxxxx
             BASE_URL='https://covid-193.p.rapidapi.com/'
+            
 5. Commands: 
 
       5.1. covid-data (or 'covid-data help') ====> Opens up a Help chart.
