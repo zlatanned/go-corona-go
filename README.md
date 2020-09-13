@@ -12,14 +12,14 @@ Steps To Access:
             BASE_URL='https://covid-193.p.rapidapi.com/'
 5. Commands: 
 
-      4.1. covid-data (or 'covid-data help') ====> Opens up a Help chart.
+      5.1. covid-data (or 'covid-data help') ====> Opens up a Help chart.
       
-      4.2. covid-data version  =====> Indicates version of application.
+      5.2. covid-data version  =====> Indicates version of application.
       
-      4.3. covid-data history ====> Outputs a List of Countries Affected By COVID-19.
+      5.3. covid-data history ====> Outputs a List of Countries Affected By COVID-19.
       
       
-      4.4. covid-data now <Country Name> ====> Gets detailed statistics of COVID-19 cases for the particular country.
+      5.4. covid-data now <Country Name> ====> Gets detailed statistics of COVID-19 cases for the particular country.
               
               
               example: covid-data now ====> "Default Country Name is set to INDIA".
@@ -32,4 +32,4 @@ Steps To Access:
       
       
       
-      4.5  covid-data forecast ====> Outputs a Beautiful Message for all of us.
+      5.5  covid-data forecast ====> Outputs a Beautiful Message for all of us.
