@@ -2,13 +2,14 @@ const Table = require('cli-table3');
 const { stats } = require('./utils');
 
 module.exports = {
-    handler: async function now(args) {
+    handler: async function now() {
 
         const data = await stats();
+        const time = new Date(data.time);
 
         const table = new Table({
-            head: ['Country', 'Cases: New', 'Active', 'Critical', 'Recovered', 'Total', 'Deaths: New', 'Deaths: Total', 'Tests', 'Date', 'Time'],
-            colWidths: [15, 13, 10, 12, 7, 15, 13, 15, 15, 30],
+            head: ['Country', 'Cases: New', 'Active', 'Critical', 'Recovered', 'Total', 'Deaths: New', 'Deaths: Total', 'Tests', 'Last Updated At'],
+            colWidths: [18, 13, 15, 12, 18, 20, 13, 15, 20, 25],
             wordWrap: true
         });
         table.push([
@@ -21,11 +22,8 @@ module.exports = {
             data.deaths.new,
             data.deaths.total,
             data.tests.total,
-            data.day,
-            data.time
+            time.toLocaleString()
         ]);
         console.log(table.toString());
     }
 }
-
-
