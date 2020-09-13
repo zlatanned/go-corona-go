@@ -29,7 +29,7 @@ module.exports = {
             break;
       
           case 'now':
-            now.handler(args);
+            now.handler();
             break;
 
           case 'history':
